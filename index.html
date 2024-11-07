@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://afila.co.id/landing_page/assets/image/logoafila.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Maintenance | Afila Media Karya</title>
+</head>
+<body class="flex flex-col items-center justify-center h-screen bg-gray-100" style="font-family: 'Pathway Extreme', sans-serif">
+    <div class="text-center">
+        <audio id="audio" src="aud.mp3" preload="auto"></audio>
+        <div class="mb-8">
+            <img src="./logo-afila.svg" alt="Afila" class="mx-auto" width="150">
+            <h1 class="text-xl md:text-4xl font-bold italic mt-4" style="color: #374E9D;">
+                <em>Situs Sedang Dalam Perbaikan !</em>
+            </h1>
+            <img src="./t.svg" alt="Illustration" class="mx-auto max-h-80">
+        </div>
+        <div class="flex space-x-2 justify-center">
+            <div id="days" class="p-2 md:p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105" style="background-color: #374E9D;">
+                <span class="block text-lg md:text-xl text-white">00</span>
+                <span class="text-white">Hari</span>
+            </div>
+            <div id="hours" class="p-2 md:p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105" style="background-color: #F4B527;">
+                <span class="block text-lg md:text-xl text-black">00</span>
+                <span class="text-black">Jam</span>
+            </div>
+            <div id="minutes" class="p-2 md:p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105" style="background-color: #374E9D;">
+                <span class="block text-lg md:text-xl text-white">00</span>
+                <span class="text-white">Menit</span>
+            </div>
+            <div id="seconds" class="p-2 md:p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105" style="background-color: #F4B527;">
+                <span class="block text-lg md:text-xl text-black">00</span>
+                <span class="text-black">Detik</span>
+            </div>
+        </div>
+        <p class="text-[#716669] mt-4">
+            Mohon maaf atas ketidaknyamanannya, saat ini sedang dalam
+            <span class="hidden md:inline"><br></span>
+             perbaikan untuk meningkatkan kualitas layanan kami.
+          </p>
+                  <div class="mt-2 flex justify-center">
+            <div class="bg-white p-4 rounded-full flex space-x-3 shadow-lg">
+                <a href="https://wa.me/6281144411201" class="transition-transform transform hover:scale-110">
+                    <img src="./wa.svg" width="30" height="30" alt="WhatsApp">
+                </a>
+                <a href="https://instagram.com/afilamediakarya" class="transition-transform transform hover:scale-110">
+                    <img src="./ig.svg" width="30" height="30" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@afilamediakarya" class="transition-transform transform hover:scale-110">
+                    <img src="./tiktok.svg" width="32" height="32" alt="TikTok">
+                </a>
+            </div>
+        </div>
+        <img src="./bg-section2.svg" alt="Background Section" class="absolute top-0 left-0 transform rotate-180 max-w-full lg:h-64 hidden sm:block md:h-32" style="max-height: 200px;">
+        <img src="./bg-section2.svg" alt="Background Section" class="absolute bottom-0 right-0 max-w-full lg:h-64 hidden sm:block md:h-32" style="max-height: 200px;">
+    </div>
+    <div id="selesai" style="display: none; text-align: center;">
+        <audio id="aud1o" src="aud2.mp3" preload="auto"></audio>
+        <div class="bg-white p-6 rounded-lg shadow-lg w-[100px]">
+            <img src="./afila.svg" alt="Afila" class="mx-auto mb-2" width="100">
+            <h2 class="text-2xl font-bold">Website telah kembali online !</h2>
+            <p class="mt-4">Website kami telah kembali online ! Jelajahi website kami dengan lebih mudah<br> dan cepat. Terima kasih atas kesabaran Anda.</p>
+            <button id="okButton" class="mt-4 bg-gradient-to-r from-yellow-400 to-blue-500 text-white font-bold py-2 px-4 rounded w-32 transform transition duration-300 hover:scale-105 hover:brightness-110">OK</button>
+        </div>
+    </div>
+</body>
+</html>
